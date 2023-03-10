@@ -6,10 +6,10 @@ st.text("Travel planning, simplified.")
 st.text("")
 place = st.text_input("Enter the name of the place: ")
 price = st.slider(
-    "Select a price range (in rupees)",
+    "Select budget (in rupees)",
     min_value=10000,
-    max_value=100000,
-    step=1000,
+    max_value=20000,
+    step=5000,
     value=(10000)
 )
 number_of_days = st.slider(
