@@ -1,7 +1,9 @@
 import streamlit as st
 import openai
 openai.api_key = st.secrets['API_KEY']
-st.title("GPT Itineary Planner")
+st.title("Itineary Planner")
+st.text("Travel planning, simplified.")
+st.text("created by @hrushik98)
 place = st.text_input("Enter the name of the place: ")
 price = st.slider(
     "Select a price range (in rupees)",
