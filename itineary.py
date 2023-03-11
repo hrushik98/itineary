@@ -44,7 +44,12 @@ def itineary(place, price, number_of_days):
         st.header(i)
   
 if st.button("Generate"):
-    st.text("Generating... Please wait")
-    itineary(place,price,number_of_days)
+    if place=="":
+        st.warning("Enter a valid name of the place.")
+    else:
+
+        st.text("Generating... Please wait.")
+        itineary(place,price,number_of_days)
+
 
 
