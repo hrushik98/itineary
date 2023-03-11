@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 openai.api_key = st.secrets['API_KEY']
-st.title("Itineary Planner")
+st.title("Itinerary Planner")
 st.text("Travel planning, simplified.")
 st.text("")
 place = st.text_input("Enter the name of the place: ")
