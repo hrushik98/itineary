@@ -1,2 +1,2 @@
 # itineary
-Built an itineary planner.
+Built an itinerary planner.
